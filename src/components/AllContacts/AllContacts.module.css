@@ -1,0 +1,6 @@
+.item {
+  border-bottom: 1px solid red;
+}
+.item:last-child{
+  border-bottom: none;
+}

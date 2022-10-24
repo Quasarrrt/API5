@@ -1,0 +1,11 @@
+.form {
+  width: 60vw;
+  height: 5vh;
+}
+.inputWrapper {
+  width: 60vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
