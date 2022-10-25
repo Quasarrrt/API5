@@ -1,5 +1,5 @@
 export const getContacts = async () => {
-	return fetch('http://localhost:3001/contacts', {
+	return fetch('https://pacific-headland-35033.herokuapp.com/contacts', {
 		method: "GET",
 	}).then((res) => {
 		console.log(res)
@@ -11,7 +11,7 @@ export const getContacts = async () => {
 };
 
 export const addContact = async (contact) => {
-	return fetch('http://localhost:3001/contacts', {
+	return fetch('https://pacific-headland-35033.herokuapp.com/contacts', {
 		method: "POST",
 		headers: {
 			'Content-Type': 'application/json',
@@ -26,7 +26,7 @@ export const addContact = async (contact) => {
 };
 
 export const deleteContact = async (number) => {
-	return fetch(`http://localhost:3001/contacts/${number}`, {
+	return fetch(`https://pacific-headland-35033.herokuapp.com/contacts/${number}`, {
 		method: "DELETE",
 		headers: {
 			'Content-Type': 'application/json',
