@@ -6,7 +6,6 @@ const AddNumberForm = ({setContacts}) => {
 	const [number, setNumber] = useState('');
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
-
 	const handleEmailChange = event => {
 		setEmail(event.target.value);
 	};

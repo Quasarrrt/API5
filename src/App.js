@@ -16,7 +16,6 @@ function App() {
 				console.log(err);
 			})
 	}, []);
-	console.log(contacts)
   return (
     <div className="App">
 			<header >

@@ -9,7 +9,6 @@ const DeleteNumberForm = ({setContacts}) => {
 	};
 	const handleSubmit = event => {
 		event.preventDefault();
-
 		if(inputValue){
 			deleteContact(inputValue)
 				.then(()=>{
@@ -18,7 +17,6 @@ const DeleteNumberForm = ({setContacts}) => {
 			})
 		}
 	};
-
 	return (
 		<form className={styles.form} onSubmit={handleSubmit}>
 			<div className={styles.inputWrapper}>
